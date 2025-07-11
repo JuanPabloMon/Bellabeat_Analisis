@@ -1,44 +1,63 @@
 # 📊 Análisis de hábitos para Bellabeat
 
-Este proyecto analiza los hábitos de actividad física y comportamiento de usuarios Fitbit, con el fin de generar recomendaciones de marketing para Bellabeat, una empresa de tecnología enfocada en salud y bienestar.
-
-🔍 El análisis fue realizado en R usando tidyverse y se basa en un dataset público disponible en el curso de Google Data Analytics Capstone.
+Este proyecto analiza datos de usuarios de dispositivos Fitbit con el objetivo de generar recomendaciones de marketing aplicables a la marca Bellabeat. El análisis fue desarrollado en R utilizando tidyverse como parte de mi portafolio profesional, combinando fundamentos de análisis de datos y pensamiento estratégico.
 
 ---
 
 ## 🎯 Objetivo
 
-Explorar datos de usuarios para segmentar perfiles según nivel de actividad y ofrecer ideas aplicables a estrategia comercial, diseño de producto y fidelización.
+Explorar los hábitos de actividad física registrados por usuarios para segmentarlos según sus niveles de actividad y proponer ideas que ayuden a:
+
+- Mejorar la retención de clientes
+- Diseñar productos alineados con el comportamiento real
+- Potenciar las campañas de comunicación y engagement de Bellabeat
 
 ---
 
-## 🧰 Herramientas
+## 🧰 Herramientas utilizadas
 
-- R + RMarkdown
+- R (Posit Cloud)
 - tidyverse (dplyr, ggplot2, lubridate)
-- Posit Cloud
+- R Markdown
 - GitHub
 
 ---
 
 ## 🧪 Metodología
 
-1. Limpieza y transformación del dataset Fitbit
-2. Agrupación por usuario y resumen de variables clave
-3. Segmentación por niveles de actividad
-4. Visualización de datos y correlaciones
-5. Recomendaciones de marketing aplicadas
+1. Carga y limpieza de los datos de Fitbit
+2. Agrupación de métricas clave por usuario
+3. Visualización de pasos, calorías y correlaciones
+4. Segmentación por niveles de actividad
+5. Generación de recomendaciones accionables
 
 ---
 
 ## 📎 Archivos incluidos
 
-- bellabeat_analysis.Rmd → Código fuente con análisis y visualizaciones
-- bellabeat_project.pdf → Versión renderizada del proyecto para presentación
+- [`bellabeat_analysis.Rmd`](./bellabeat_analysis.Rmd): código fuente completo en R
+- [`bellabeat_project.pdf`](./bellabeat_project.pdf): informe del análisis con visualizaciones
+
+---
+
+## 💡 Principales hallazgos
+
+- Más del 70 % de los usuarios caminan menos de 10,000 pasos diarios
+- Existe correlación directa entre pasos y calorías quemadas
+- Usuarios altamente activos representan oportunidades para fidelización y productos premium
+
+---
+
+## 📣 Recomendaciones estratégicas
+
+- Personalizar notificaciones a usuarios con bajo nivel de actividad
+- Diseñar retos por segmento (ej. “grupo de 5,000 pasos”, “grupo de 10,000 pasos”)
+- Crear campañas de contenido enfocado en bienestar desde el comportamiento real de las usuarias
 
 ---
 
 ## ✍️ Autor
 
 Juan Pablo Montilla Montaña  
-Portafolio:
+📧 [montillajuanpablo652@gmail.com](mailto:montillajuanpablo652@gmail.com)  
+🔗 Portafolio: [https://github.com/JuanPabloMon](https://github.com/JuanPabloMon)
